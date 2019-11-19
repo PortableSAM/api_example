@@ -1,5 +1,14 @@
-* {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+.body_container {
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
 }
